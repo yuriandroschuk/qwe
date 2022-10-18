@@ -11,6 +11,10 @@ test('homepage has DOU in title and get started link linking to the intro page',
     // Expect an attribute "to be strictly equal" to the value.
     await expect(Logo).toHaveAttribute('href', 'https://dou.ua/');
   
+    await page.locator('.inp').type('test')
+    await page.keyboard.press('Enter')
+    await expect(page).toHaveURL("https://dou.ua/search/?q=test");
+    
     // Click on login, login form should appear
    await page.locator('#login-link').click()
    await expect(page.locator('#_loginDialog')).toBeVisible()
