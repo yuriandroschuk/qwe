@@ -11,8 +11,6 @@ test('homepage has DOU in title and get started link linking to the intro page',
     // Expect an attribute "to be strictly equal" to the value.
     await expect(Logo).toHaveAttribute('href', 'https://dou.ua/');
   
-    // An image should be visible in slider
-    await expect(page.locator('.slide >> img').toBeVisible)
     // Click on login, login form should appear
    await page.locator('#login-link').click()
    await expect(page.locator('#_loginDialog')).toBeVisible()
