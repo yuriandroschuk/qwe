@@ -1,1 +1,1 @@
-[]
+[{"uid":"22a4a751ab7c82a7","name":"homepage has Playwright in title and get started link linking to the intro page","time":{"start":1666095281513,"stop":1666095284716,"duration":3203},"status":"passed","severity":"normal"},{"uid":"e6c2b8ce0c84f339","name":"homepage has DOU in title and get started link linking to the intro page","time":{"start":1666095281659,"stop":1666095284510,"duration":2851},"status":"passed","severity":"normal"}]
