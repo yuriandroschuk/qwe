@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Oct 20 14:05:51 GMT 2022","Thu Oct 20 14:05:52 GMT 2022","877","chromium","example.spec.js","","","","homepage has Playwright in title and get started link linking to the intro page",""
+"passed","Thu Oct 20 14:05:46 GMT 2022","Thu Oct 20 14:05:48 GMT 2022","2388","chromium","dou.spec.js","","","","homepage has DOU in title and get started link linking to the intro page",""
+"passed","Thu Oct 20 14:05:49 GMT 2022","Thu Oct 20 14:05:51 GMT 2022","1914","chromium","dou2.spec.js","","","","homepage has DOU in title and get started link linking to the intro page",""
