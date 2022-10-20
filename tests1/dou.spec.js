@@ -18,4 +18,7 @@ test('homepage has DOU in title and get started link linking to the intro page',
     // Click on login, login form should appear
    await page.locator('#login-link').click()
    await expect(page.locator('#_loginDialog')).toBeVisible()
+
+   // Footer should be visible
+   await expect(page.locator('.b-footer')).toBeVisible()
   });
